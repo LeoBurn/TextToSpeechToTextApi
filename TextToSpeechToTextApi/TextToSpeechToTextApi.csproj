@@ -117,7 +117,8 @@
   <ItemGroup>
     <Compile Include="ActionFilter\CORSActionFilter.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\TextToSpeechApiController.cs" />
+    <Compile Include="Controllers\SpeechToTextController.cs" />
+    <Compile Include="Controllers\TextToSpeechController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
